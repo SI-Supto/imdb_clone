@@ -14,6 +14,7 @@ setMovies(e.data.results)
     
 }
 useEffect(() => {
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   fetchMovies();
 
  
